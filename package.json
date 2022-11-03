@@ -1,0 +1,29 @@
+{
+  "name": "egg-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "egg-bin test",
+    "dev": "egg-bin dev",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "build": "ets && tsc -p tsconfig.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dataloader": "^2.1.0",
+    "egg": "^3.3.3",
+    "egg-graphql": "^2.8.0",
+    "egg-view-nunjucks": "^2.3.0",
+    "koa-is-json": "^1.0.0",
+    "moment": "^2.29.4",
+    "gh-pages": "^4.0.0",
+    "konva": "^8.3.1"
+  },
+  "devDependencies": {
+    "egg-bin": "^5.2.0",
+    "egg-mock": "^5.0.2"
+  }
+}
