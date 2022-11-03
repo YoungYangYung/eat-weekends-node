@@ -2,6 +2,7 @@
   "name": "egg-example",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://youngyangyung.github.io/eat-weekends-node/",
   "main": "index.js",
   "scripts": {
     "test": "egg-bin test",
