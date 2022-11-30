@@ -3,4 +3,5 @@ module.exports = (app)=>{
     router.get('/', controller.home.index);
     router.get('/news', controller.news.list);
     router.get('/newsGraphql', controller.news.graphqlList);
+    router.post('/sendEmail', controller.email.send);
 }

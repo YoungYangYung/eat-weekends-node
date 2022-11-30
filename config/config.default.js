@@ -28,3 +28,14 @@ exports.graphql = {
     // 是否加载到agent上，默认false
     agent: false
 }
+
+exports.security = {
+    csrf: {
+        enable: false
+    }
+}
+
+exports.email = {
+    pass: 'hogpgzsxdutueahb',
+    from: '2412749420@qq.com'
+}

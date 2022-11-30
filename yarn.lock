@@ -5203,6 +5203,11 @@ node-homedir@^1.1.1:
   resolved "http://registry.npm.release.ctripcorp.com/node-homedir/download/node-homedir-1.1.1.tgz#736db0b60e3bba8aba68df9927de40a7aabe1075"
   integrity sha1-c22wtg47uoq6aN+ZJ95Ap6q+EHU=
 
+nodemailer@^6.8.0:
+  version "6.8.0"
+  resolved "http://registry.npm.release.ctripcorp.com/nodemailer/download/nodemailer-6.8.0.tgz#804bcc5256ee5523bc914506ee59f8de8f0b1cd5"
+  integrity sha1-gEvMUlbuVSO8kUUG7ln43o8LHNU=
+
 normalize-package-data@^2.3.2:
   version "2.5.0"
   resolved "http://registry.npm.release.ctripcorp.com/normalize-package-data/download/normalize-package-data-2.5.0.tgz#e66db1838b200c1dfc233225d12cb36520e234a8"
