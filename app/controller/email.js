@@ -5,7 +5,6 @@ class EmailController extends Controller {
     async send(){
         const { to, html } = this.ctx.request.body;
         const { pass, from } = this.config.email;
-        console.log('===to',this.ctx.request.body, pass, from);
         const transporter = nodemailer.createTransport({
             service: 'qq',
             auth: {
