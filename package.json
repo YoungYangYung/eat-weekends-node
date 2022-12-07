@@ -8,7 +8,8 @@
     "dev": "egg-bin dev",
     "deploy": "gh-pages -d build",
     "predeploy": "npm run build",
-    "build": "ets && tsc -p tsconfig.json"
+    "build": "ets && tsc -p tsconfig.json",
+    "start":"egg-scripts start --daemon"
   },
   "author": "",
   "license": "ISC",
