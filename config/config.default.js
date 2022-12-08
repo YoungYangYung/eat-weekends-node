@@ -39,9 +39,3 @@ exports.email = {
     pass: 'hogpgzsxdutueahb',
     from: '2412749420@qq.com'
 }
-
-exports.cluster = {
-    listen: {
-        port: '8000'
-    }
-}
