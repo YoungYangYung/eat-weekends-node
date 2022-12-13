@@ -18,9 +18,6 @@
     "egg": "^3.3.3",
     "egg-graphql": "^2.8.0",
     "egg-view-nunjucks": "^2.3.0",
-    "gh-pages": "^4.0.0",
-    "koa-is-json": "^1.0.0",
-    "konva": "^8.3.1",
     "moment": "^2.29.4",
     "nodemailer": "^6.8.0"
   },
